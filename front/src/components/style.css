@@ -1,0 +1,40 @@
+form{
+    width: fit-content
+}
+
+label{
+    display: block;
+}
+
+nav{
+    background-color: lightgray;
+    height: 50px;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+ul li{
+ height: 50px;
+ line-height: 50px;
+ float: left;
+ min-width: 100px;
+ text-align: center;
+}
+
+li:hover{
+    background-color: white;
+    color:lightgray;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
